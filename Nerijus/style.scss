@@ -1,0 +1,258 @@
+@media screen and (max-width: 767px) {
+body {
+  font-family: Arial, sans-serif;
+  padding: 0 3rem;
+}
+header nav {
+    display: none;
+}
+container img {
+    display: none;
+}
+
+header img {
+  height: 5rem;
+}
+
+h3 {
+  color: rgb(226, 95, 116);
+  text-decoration: solid;
+}
+container {
+  display: flex;
+  align-content: space-around;
+  margin: 5rem auto;
+}
+h1 {
+  font-size: 7vw;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+}
+div.right {
+  flex: 1;
+}
+div.left {
+  flex: 1;
+  min-width: 20rem;
+}
+.color {
+  padding: 6rem 2rem 2rem 1rem;
+  background-image: linear-gradient(
+    to top right,
+    rgba(255, 0, 0, 0.527),
+    orange,
+    rgba(0, 128, 0, 0.726)
+  );
+  border-radius: 0.5rem;
+}
+container button {
+  width: 7rem;
+  border-radius: 2rem;
+    border-image: linear-gradient(
+    rgba(255, 0, 0, 0.527),
+    orange,
+    rgba(0, 128, 0, 0.726)
+  );
+  padding: 1rem 1rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+}
+section {
+  margin: 2rem auto;
+}
+section a {
+  width: 15rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  flex: 0 0 15rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.card img {
+  max-width: 50rem;
+  height: 20rem;
+}
+.card table,
+th,
+td {
+  border: white;
+  text-align: left;
+  padding: 0.2rem 0.8rem;
+}
+article {
+    border-bottom: 0.1rem solid rgb(209, 209, 209);
+}
+
+.footer {
+  display: flex;
+}
+footer img {
+  height: 5rem;
+}
+.col-1 {
+  flex: 3;
+}
+.col,
+.col-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer li a {
+  text-decoration: none;
+  color: rgb(82, 81, 81);
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  color: darkgrey;
+}
+footer div a {
+  padding: 0.5rem 0.5rem;
+}
+}
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+header nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  header nav a:last-child {
+    color: rgb(226, 95, 116);
+  }
+  body {
+    font-family: Arial, sans-serif;
+    padding: 0 3rem;
+  }
+  
+  header img {
+    height: 5rem;
+  }
+  
+  h3 {
+    color: rgb(226, 95, 116);
+    text-decoration: solid;
+  }
+  container {
+    display: flex;
+    align-content: space-around;
+    margin: 5rem auto;
+  }
+  h1 {
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  h2 {
+    font-weight: bold;
+  }
+  div.right {
+    flex: 1;
+  }
+  div.left {
+    flex: 1;
+    min-width: 20rem;
+  }
+  .color {
+    padding: 6rem 2rem 2rem 1rem;
+    background-image: linear-gradient(
+      to top right,
+      rgba(255, 0, 0, 0.527),
+      orange,
+      rgba(0, 128, 0, 0.726)
+    );
+    border-radius: 0.5rem;
+  }
+  container button {
+    width: 7rem;
+    border-radius: 2rem;
+      border-image: linear-gradient(
+      rgba(255, 0, 0, 0.527),
+      orange,
+      rgba(0, 128, 0, 0.726)
+    );
+    padding: 1rem 1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+  }
+  section {
+    margin: 2rem auto;
+  }
+  section a {
+    width: 15rem;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .card {
+    border-radius: 1rem;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  
+  .card img {
+    max-width: 70rem;
+    height: 20rem;
+  }
+  .card table,
+  th,
+  td {
+    border: white;
+    text-align: left;
+    padding: 0.2rem 0.8rem;
+  }
+  article {
+    border-bottom: 0.1rem solid rgb(209, 209, 209);
+}
+  .footer {
+    display: flex;
+  }
+  footer img {
+    height: 5rem;
+  }
+  .col-1 {
+    flex: 3;
+  }
+  .col,
+  .col-1 {
+    flex-wrap: wrap;
+  }
+  footer li a {
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    color: darkgrey;
+  }
+  footer div a {
+    padding: 0.5rem 0.5rem;
+  }
+  }
